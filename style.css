@@ -7,3 +7,11 @@
     justify-content: space-between;
     margin: 20px;
 }
+
+button{
+    padding: 10px 35px;
+    background: #f54444;
+    outline: none;
+    border:none;
+    border-radius: .25rem;
+}
