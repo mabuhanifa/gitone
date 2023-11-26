@@ -28,3 +28,15 @@ button {
   border-radius: 0.25rem;
   width: 150px;
 }
+
+.flex-grow {
+  display: flex;
+  gap: 20px;
+}
+
+.flex-grow div {
+  width: 150px;
+  height: 150px;
+  background: #ff7f7f;
+  border-radius: 100%;
+}
