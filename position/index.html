@@ -3,22 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>:active Pseudo-class Example</title>
+    <title>CSS Position Examples</title>
     <style>
-      /* Styles for the normal state of the link */
-      a {
-        color: blue;
-        text-decoration: none; /* Remove the default underline */
+      .static-example {
+        /* default behavior */
       }
 
-      /* Styles for the link when it is being clicked/activated */
-      a:active {
-        color: red;
-        /* You can add additional styles for the active state */
+      .relative-example {
+        position: relative;
+        top: 10px;
+        left: 20px;
+        border: 1px solid red;
+      }
+
+      .absolute-example {
+        position: absolute;
+        top: 30px;
+        left: 40px;
+        border: 1px solid blue;
+      }
+
+      .fixed-example {
+        position: fixed;
+        top: 50px;
+        left: 60px;
+        border: 1px solid green;
+      }
+
+      .sticky-example {
+        position: sticky;
+        top: 70px;
+        border: 1px solid orange;
       }
     </style>
   </head>
   <body>
-    <a href="#">Click me</a>
+    <div class="static-example">Static Position</div>
+    <div class="relative-example">Relative Position</div>
+    <div class="absolute-example">Absolute Position</div>
+    <div class="fixed-example">Fixed Position</div>
+    <div class="sticky-example">Sticky Position</div>
   </body>
 </html>
