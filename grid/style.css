@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 150px 250px 350px 550px;
   gap: 50px;
+  place-items: center;
 }
 
 .parent div {
